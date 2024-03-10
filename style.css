@@ -7,31 +7,25 @@ body {
   padding: 0;
   margin: 0;
 }
-.rupee 
-{
-   content: "\20B9";
+.rupee {
+  content: "\20B9";
 }
 nav {
   background-color: #111;
   color: white;
   padding: 20px 50px;
-
 }
-.logo
-{
+.logo {
   font-size: x-large;
   font-weight: 900;
-  
 }
 
 .navTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
-.menuItem:hover
-{
+.menuItem:hover {
   background-color: #191414;
 
   border-bottom: 2px solid #0ef;
@@ -42,7 +36,6 @@ nav {
   transition: 0.5s;
   transform: scale(1) translateY(0);
   opacity: 1;
-
 }
 
 .search {
@@ -62,18 +55,15 @@ nav {
   color: lightgray;
 }
 
-.night:hover
-{
+.night:hover {
   transform: scale(1.1);
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
-.dropBtn
-{
+.dropBtn {
   cursor: pointer;
 }
-.dropdown 
-{
+.dropdown {
   right: 20%;
 }
 
@@ -100,8 +90,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-} 
+}
 .menuItem {
   margin-right: 50px;
   cursor: pointer;
@@ -118,7 +107,7 @@ nav {
 .sliderWrapper {
   display: flex;
   width: 500vw;
-  transition: all 1.5s ease-in-out;
+  transition: all 1s ease-out;
 }
 
 .sliderItem {
@@ -237,10 +226,9 @@ nav {
   font-weight: 600;
   margin: 20px;
 }
-.featureTitle:hover
-{
+.featureTitle:hover {
   cursor: pointer;
-  border-bottom:1px solid #369e62;
+  border-bottom: 1px solid #369e62;
 }
 
 .featureDesc {
@@ -260,7 +248,6 @@ label {
   font-weight: 300;
 }
 
-
 .cardIcons {
   display: flex;
 }
@@ -277,7 +264,6 @@ label {
 .sm {
   width: 30%;
 }
-
 
 .close {
   width: 20px;
@@ -346,8 +332,7 @@ label {
   font-size: 20px;
   font-weight: 500;
 }
-.size:hover
-{
+.size:hover {
   background-color: green;
   color: whitesmoke;
   transition: 0.5s ease-in-out;
@@ -367,26 +352,23 @@ label {
   color: black;
   transition: 0.5s ease-in-out;
 }
-.cardArea
-{
+.cardArea {
   background-color: #f0f0f0;
   color: #369e62;
 }
-.cardHead
-{
+.cardHead {
   text-align: center;
   padding: 30px 20px;
   font-size: 24px;
   font-weight: 800;
 }
-.cards{
+.cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
 }
-.cardItem
-{
+.cardItem {
   flex: 1;
   padding: 40px;
   display: grid;
@@ -395,24 +377,21 @@ label {
   perspective: 700px;
   color: black;
 }
-.cardTitle:hover
-{
+.cardTitle:hover {
   border-bottom: 1px solid green;
   transition: 0.3s ease-out;
 }
-.cardImage
-{
+.cardImage {
   width: 100%;
   border: 3px solid green;
-   border-radius: 1.5rem;
+  border-radius: 1.5rem;
 }
-.cardImage:hover
-{
+.cardImage:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
   cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .gallery {
@@ -433,19 +412,20 @@ label {
 
 .galleryImg {
   width: 100%;
-   border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  /* to make this 3d(in future) */
   /* height: 80vh;
   aspect-ratio: 9 / 16;
   background-size: cover;
   box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.3);
   transform: rotateX(10deg) rotateY(10deg); */
-
 }
-.galleryImg:hover
-{
+.galleryImg:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .newSeason {
@@ -503,8 +483,7 @@ footer {
   color: gray;
   cursor: pointer;
 }
-.fListItem:hover
-{
+.fListItem:hover {
   border-bottom: 1px solid green;
 }
 
@@ -526,143 +505,12 @@ footer {
   color: white;
 }
 
-.fIcons{
+.fIcons {
   display: flex;
 }
 
-.fIcon{
+.fIcon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
-
-@media screen and (max-width:480px) {
-  nav{
-    padding: 20px;
-  }
-
-  .search{
-    display: none;
-  }
-
-  .navBottom{
-    flex-wrap: wrap;
-  }
-
-  .menuItem{
-    margin: 20px;
-    font-weight: 700;
-    font-size: 20px;
-  }
-
-  .slider{
-    clip-path: none;
-  }
-
-  .sliderImg{
-    width: 90%;
-  }
-
-  .sliderBg{
-    width: 100%;
-    height: 100%;
-  }
-
-  .sliderTitle{
-    display: none;
-  }
-
-  .sliderPrice{
-    top: unset;
-    bottom: -50;
-    left: 0;
-    background-color: lightgrey;
-  }
-
-  .buyButton{
-    right: 0;
-    top: 0;
-  }
-
-  .features{
-    flex-direction: column;
-  }
-
-  .product{
-    clip-path: none ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .productImg{
-    width: 80%;
-  }
-
-  .productDetails{
-    width: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    top: 0;
-  }
-
-  .productTitle{
-    font-size: 50px;
-    margin: 0;
-  }
-
-  .gallery{
-    display: none;
-  }
-
-  .newSeason{
-    flex-direction: column;
-  }
-
-  .nsItem:nth-child(2){
-    padding: 50px;
-  }
-
-  footer{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footerLeft{
-    padding: 20px;
-    width: 90%;
-  }
-
-  .footerRight{
-    padding: 20px;
-    width: 90%;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-  }
-}
-/* @media (min-width:1366px) and (max-height:870px){.container{flex-wrap: wrap;}
-
-  .imageContainer, .infoContainer{
-    max-width: calc((100% - 40px) /  3);
-  }
-
-  .imageContainer img{
-    height: 100%;
-  }
-
-  #showcase .imageContainer, #featured .infoContainer{
-    margin-bottom: 20px;  
-  }
-
-  /*#showcase .imageContainer:last-of-type, #featured .infoContainer:first-of-type {
-    margin-right: 0;
-  }*/
-
-  /* @media screen and (orientation:landscape) and (min-device-aspect-ratio:5/3) {
-    .imageContainer, .infoContainer{float: left;margin-left: 20px;margin-bottom: 20 px;}
-    #showcase .imageContainer{order:-1;}
-  } */ 
