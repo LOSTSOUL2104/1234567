@@ -1,10 +1,11 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
+// ARRAY OF PRODUCTS =>>
 const products = [
   {
     id: 1,
     title: "Air Force",
- 
+
     colors: [
       {
         code: "black",
@@ -48,7 +49,7 @@ const products = [
   {
     id: 4,
     title: "Crater",
-  
+
     colors: [
       {
         code: "black",
@@ -63,7 +64,7 @@ const products = [
   {
     id: 5,
     title: "Hippie",
-  
+
     colors: [
       {
         code: "gray",
@@ -103,20 +104,7 @@ menuItems.forEach((item, index) => {
     });
   });
 });
-
-currentProductColors.forEach((color, index) => {
-  color.addEventListener("click", () => {
-    currentProductImg.src = choosenProduct.colors[index].img;
-  });
-});
-
-currentProductSizes.forEach((size, index) => {
-  size.addEventListener("click", () => {
-    currentProductSizes.forEach((size) => {
-      size.style.backgroundColor = "white";
-      size.style.color = "black";
-    });
-    size.style.backgroundColor = "black";
-    size.style.color = "white";
-  });
+const changeText = document.querySelector("#fButton");
+changeText.addEventListener("click", function () {
+  changeText.textContent = "JOINED!";
 });
